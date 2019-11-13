@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel ="stylesheet" type='text/css' href="bootstrap.css" media="screen"/>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <!--Tab title-->
+    <title>Bootstrap Visualization Dashboard</title>
+  </head>
+  <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="web_lat.html">Latitude</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Plots
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
+                            <a class="dropdown-item" href="humidity.html">Humidity</a>
+                            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                            <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="comparison.html">Comparison</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="data.html">Data</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    
+        <div class="container-fluid">
+            <div class="row mx-sm-n3">
+            <!--<div class="jumbotron">-->
+                <div class="col-7"><div class="p-3 border bg-light">
+                    <h2 class="display-4">Cloudiness</h2>
+                    <p class="lead"></p>
+                    <hr class="my-4">
+                    
+                    <p>
+                    <figure class="figure">
+                            <img src="Images/cloudiness.png" class="figure-img img-fluid" alt="Responsive image">
+                            <figcaption class="figure-caption">
+                                By analyzing the graph, it seems that cities that are closer to the equator do not have significantly more 
+                                cloudiness than cities that are further from the equator.
+                        </figcaption>
+                    </figure>
+                    </p>
+                </div>
+                </div>
+            
+                
+                <div class="col-4">
+                            <h3>Visualizations</h3>
+                        
+                    
+                        <div class="row mx-sm-n4">
+                                <div class="col py-3 px-lg-5 bg-light"><a href="max_temp.html" class="link"><img src="Images/max_temp.png" class="img-fluid" alt="Responsive image"></a></div>
+                                <div class="col py-3 px-lg-5 bg-light"><a href="humidity.html" class="link"><img src="Images/humidity.png" class="img-fluid" alt="Responsive image"></a></div>
+                              </div>
+                              <div class="row mx-sm-n4">
+                                <div class="col py-3 px-lg-5 bg-light"><a href="cloudiness.html" class="link"><img src="Images/cloudiness.png" class="img-fluid" alt="Responsive image"></a></div>
+                                <div class="col py-3 px-lg-5 bg-light"><a href="wind_speed.html" class="link"><img src="Images/wind_speed.png" class="img-fluid" alt="Responsive image"></a></div>
+                              </div>
+
+                </div>
+            </div>
+        </div>
+
+                    
+  </body>
+</html>
